@@ -1,0 +1,5 @@
+E -> T Q
+Q -> + T Q | - T Q | e
+T -> F R
+R -> * F R | / F R | e
+F -> ( E ) | id | intNum | floatNum
